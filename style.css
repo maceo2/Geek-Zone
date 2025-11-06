@@ -1,0 +1,78 @@
+/* General Setup */
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
+  color: #00ffe0;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px #00ffe0;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 2px solid #0ff;
+  width: 120px;
+  box-shadow: 0 0 15px #00ffe0;
+}
+
+nav a {
+  color: #0ff;
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-shadow: 0 0 10px #00ffe0;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 220px;
+  width: 220px;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  border-right: 2px solid #0ff;
+}
+
+.info-card {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-left: 3px solid #00ffe0;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Main Content */
+.content {
+  margin-left: 240px;
+  padding: 2rem;
+}
+
+.post {
+  background: rgba(255, 255, 255, 0.05);
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 3px solid #00ffe0;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #00ffe0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 2px solid #0ff;
+  margin-top: 2rem;
+}
